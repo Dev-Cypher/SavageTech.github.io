@@ -1,38 +1,22 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
-	.parallax {
-	  /* The image used */
-	  background-image: url("login.jpg");
-	
-	  /* Set a specific height */
-	  min-height: 500px; 
-	
-	  /* Create the parallax scrolling effect */
-	  background-attachment: fixed;
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	}
-	</style>
-	<title>Savage Tech</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
-
-	<div class="parallax"></div>
-	
-	<div style="height:1000px;background-color:red;font-size:36px">
-	
-
-
-	</div>
+		.main {
+			text-align:center;
+		}
+		.marq {
+			padding-top:30px;
+			padding-bottom:30px;
+		}
+		.geek1 {
+			font-size:36px;
+			font-weight:bold;
+			color:white;
+			padding-bottom:10px;
+		}
+		</style>
 	<header>
 		<nav>
 			<ul>
@@ -42,9 +26,44 @@
 			</ul>
 		</nav>
 	</header>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.parallax {
+	  /* The image used */
+	  background-image: url("login.jpg");
+	
+	  /* Set a specific height */
+	  min-height: 700px; 
+	
+	  /* Create the parallax scrolling effect */
+	  background-attachment: local;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+	</style>
+	<title>Savage Tech</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class = "main">
+		<marquee class="marq" bgcolor = "red" direction = "left" loop="" >
+			<div class="geek1">Welcome Devlopers :)</div>
+			<div class="geek2">A computer science portal where you learn with us</div>
+		</marquee>
+		</div>
+
+	<div class="parallax"></div>
+	
+	<div style="height:1000px;background-color:rgb(255, 201, 201);font-size:20px">
+	Providing You The Best Game<br><br>
+		This site provides the link of some of the best games of all times.<br>
+		Some of them are free and as well as paid.
+	</div>
+
 	<main>
 		<section id="about">
-			<h1 style="color:red" >About Us</h1>
+			<h1 style="color:red">About</h1>
 			<p style="color:blue">The best FPS game in a very small size...</p><br>
                         
                         <h5 style="color:blue">This is a first person shooter game which will definietly give you goosebumbs.</h5><br>
@@ -61,6 +80,31 @@
 				<li>Web Development</li>
 				<li>White Hat Hacking</li>
 			</ul>
+ 
+    
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .parallax {
+      /* The image used */
+      background-image: url("login.jpg");
+            
+      /* Set a specific height */
+      min-height: 700px; 
+            
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;}
+    </style>
+
+
+
+
+    <div class="parallax"></div>
+
 		</section>
 		<section id="contact">
 			<h1>Contact Us</h1>
@@ -79,5 +123,6 @@
 		<p>&copy; 2026 Savage Tech</p>
 	</footer>
 	<script src="script.js"></script>
+
 </body>
 </html>
